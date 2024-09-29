@@ -7,7 +7,7 @@ class Shape:
     def get_matrix_with_offset(self, rotation, offset):
         return offset + self.rotations[rotation]
 
-def generate_shapes(self):
+def generate_shapes():
     #"I" shape
     shape_i_rot1 = np.array([[1, 0], [1, 1], [1, 2], [1, 3]], np.int32)
     shape_i_rot2 = np.array([[0, 1], [1, 1], [2, 1], [3, 1]], np.int32)
