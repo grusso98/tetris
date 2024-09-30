@@ -2,7 +2,7 @@
 Simple tetris game developed using OOP in Pyton. 
 
 ### Install
-Just create a new enviroment and install required packages located in the requirements.txt
+Just create a new enviroment  executing the bash script "env_setup.sh" and install required packages located in the requirements.txt through "pip install -r requirements.txt"
 
 ### How to play
 - Arrow up: rotate shapes
